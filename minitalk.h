@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minitalk.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: procha-r <procha-r@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pedroribeiro <pedroribeiro@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 23:27:10 by procha-r          #+#    #+#             */
-/*   Updated: 2025/02/25 23:32:31 by procha-r         ###   ########.fr       */
+/*   Updated: 2025/03/22 10:11:51 by pedroribeir      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,10 @@
 # include <signal.h>
 # include <unistd.h>
 # include <stdlib.h>
-# include <stdio.h>
 # include <sys/types.h>
+
+# include "ft_printf/includes/ft_printf.h"
+# include "ft_printf/libft/includes/libft.h"
 
 typedef struct s_state
 {
